@@ -4,6 +4,6 @@
 
 int main() {
   using namespace yuri;
-  info << std::numeric_limits<long unsigned int>::max();
+  info << sizeof('c');
   return 0;
 }
